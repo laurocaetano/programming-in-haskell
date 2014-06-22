@@ -1,7 +1,7 @@
 -- To execute this file, just run: runhaskell 5.hs
 
 -- What would be the effect of replacing ≤ by < in the definition of qsort?
--- R: It will produce a sorted Array with uniq values.
+-- R: It will produce a sorted list with uniq values.
 
 -- Quicksort
 uniqQsort :: Ord a => [a] -> [a]
