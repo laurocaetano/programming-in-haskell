@@ -8,5 +8,5 @@ prod [] = 1
 prod (x:xs) = x * prod xs
 
 main = do
-  putStrLn . show $ prod[2, 3, 4]
+  putStrLn . show $ prod [2, 3, 4]
 -- 24
