@@ -5,6 +5,10 @@
 --         a = 10
 --        xs = [1,2,3,4,5]
 
+-- 1: The name should start with a lower case.
+-- 2: The indentation of `xs` is wrong.
+-- 3: Parenthesise the lenght xs.
+
 n = a `div` (length xs)
   where
     a = 10
