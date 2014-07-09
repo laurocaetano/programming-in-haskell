@@ -7,7 +7,7 @@
 
 -- 1: The name should start with a lower case.
 -- 2: The indentation of `xs` is wrong.
--- 3: Parenthesise the lenght xs.
+-- 3: It should be backticks -> `
 
 n = a `div` (length xs)
   where
