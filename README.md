@@ -1,4 +1,4 @@
 programming-in-haskell
 ======================
 
-Exercices of Programming in Haskell book
+Exercises of Programming in Haskell book
