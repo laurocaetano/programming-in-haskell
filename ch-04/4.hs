@@ -5,4 +5,4 @@
 -- _ ∧ _ = False
 
 (∧) :: Bool -> Bool -> Bool
-a ∧ b = if a && (a == b) then True else False
+a ∧ b = if a && b then True else False
