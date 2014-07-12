@@ -8,12 +8,13 @@ False ∨ False = False
 False ∨ True  = True
 
 (∨∨) :: Bool -> Bool -> Bool
-True ∨∨ _  = True
 False ∨∨ False = False
-False ∨∨ True  = True
+False ∨∨ _  = True
+_ ∨∨ _  = True
 
 (∨∨∨) :: Bool -> Bool -> Bool
 False ∨∨∨ False = False
+False ∨∨∨ True = True
 True ∨∨∨ _  = True
 
 (∨∨∨∨) :: Bool -> Bool -> Bool
