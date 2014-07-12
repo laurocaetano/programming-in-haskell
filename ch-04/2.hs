@@ -16,4 +16,4 @@ safetail'' xs | length xs == 0 = xs
 
 safetail''' ::  [a] -> [a]
 safetail''' [] = []
-safetail''' (x:xs) = xs
+safetail''' (_:xs) = xs
