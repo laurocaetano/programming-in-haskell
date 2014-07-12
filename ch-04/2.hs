@@ -8,11 +8,11 @@
 -- Hint: make use of the library function null.
 
 safetail' :: [a] -> [a]
-safetail' xs = if length xs == 0 then xs else tail xs
+safetail' xs = if null xs then xs else tail xs
 
 safetail'' :: [a] -> [a]
-safetail'' xs | length xs == 0 = xs
-              | otherwise      = tail xs
+safetail'' xs | null xs    = xs
+              | otherwise  = tail xs
 
 safetail''' ::  [a] -> [a]
 safetail''' [] = []
