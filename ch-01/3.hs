@@ -7,6 +7,7 @@ prod :: Num a => [a] -> a
 prod [] = 1
 prod (x:xs) = x * prod xs
 
+main :: IO()
 main = do
   putStrLn . show $ prod [2, 3, 4]
 -- 24

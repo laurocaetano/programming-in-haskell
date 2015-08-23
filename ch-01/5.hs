@@ -11,6 +11,7 @@ uniqQsort (x:xs) = uniqQsort smaller ++ [x] ++ uniqQsort larger
                  smaller = [a | a <- xs, a < x]
                  larger = [b | b <- xs, b > x]
 
+main :: IO()
 main = do
   putStrLn . show $ uniqQsort [3, 7, 4, 1, 1, 6, 4, 7, 4, 3]
 -- [1,3,4,6,7]
