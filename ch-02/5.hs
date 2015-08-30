@@ -8,6 +8,7 @@ secondAlternativeInit :: Num a => [a] -> [a]
 secondAlternativeInit x = reverse (tail (reverse x))
 -- Ugly, right?
 
+main :: IO()
 main = do
   putStrLn . show $ firstAlternativeInit [1, 2, 3, 4, 5, 6]
 -- [1, 2, 3, 4, 5]

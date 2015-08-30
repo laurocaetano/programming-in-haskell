@@ -5,6 +5,7 @@
 anotherLastImplementation :: Num a => [a] -> a
 anotherLastImplementation (x) = head (reverse x)
 
+main :: IO()
 main = do
   putStrLn . show $ anotherLastImplementation [1, 2, 3, 4, 5, 6]
 -- 6

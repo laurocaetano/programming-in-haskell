@@ -19,6 +19,7 @@ reverseQsort (x:xs) = reverseQsort larger ++ [x] ++ reverseQsort smaller
                         smaller = [a | a <- xs, a <= x]
                         larger = [b | b <- xs, b > x]
 
+main :: IO()
 main = do
   putStrLn . show $ qsort [3, 7, 4, 1, 1, 6, 4, 7, 4, 3]
 -- [1,1,3,3,4,4,4,6,7,7]
